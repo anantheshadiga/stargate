@@ -1,5 +1,16 @@
 
 ## Prerequisite
+Install virualenv
+bash
+pip3 install --upgrade virtualenv
+
+- Create virtual environment 
+bash
+virtualenv myvenv
+
+- Activate the virtual environment
+bash
+source myvenv/bin/activate
 #### install postgresql
 - Install postgresql & postGIS. This will be used as the datastore
 ```bash
